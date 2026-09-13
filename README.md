@@ -5,9 +5,11 @@ YOLO 가중치 : yolo_train_results_v12
 
 ResNet 가중치 : best_classification_resnet_finetuned.pth
 
-# YOLO-ResNet 테스트 및 LLM 리포트 생성 코드
+# 파일 설명
 
-https://colab.research.google.com/drive/1ndu0bpVc5vhAoHPjPIZzbzs4_hOiuRdi?usp=sharing
+YOLO_ResNet_train : 비전모델(YOLO-ResNet) 훈련 코드
+
+LLM_final : 비전모델과 LLM 연결 및 테스트 파일
 
 # Industrial_LLM
 An Explainable AI (XAI) predictive maintenance framework for smart factories. It integrates Vision AI anomaly detection with LLM and RAG to provide non-experts with clear root-cause analysis and actionable repair guides.
