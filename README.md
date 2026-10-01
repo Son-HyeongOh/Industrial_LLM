@@ -56,7 +56,7 @@ Our decoupled architecture utilizes lightweight vision expert models for real-ti
 
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/5870cc45-cd91-4948-89b7-0347da8182f6" />
 
-- model : Gemini 3.7 flash
+- model : Gemini 3.5 flash
 
 To address domain knowledge limitations and prevent LLM hallucinations, the system employs a Retrieval-Augmented Generation (RAG) framework.
 
