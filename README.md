@@ -58,7 +58,7 @@ Our decoupled architecture utilizes lightweight vision expert models for real-ti
 
 - model : Gemini 3.7 flash
 
-To address domain knowledge limitations and prevent LLM hallucinations, the system employs a Retrieval-Augmented Generation (RAG) framework[cite: 11].
+To address domain knowledge limitations and prevent LLM hallucinations, the system employs a Retrieval-Augmented Generation (RAG) framework.
 
 *   Vector Database (ChromaDB): Historical maintenance logs and manuals are embedded into high-dimensional vectors and stored in ChromaDB for semantic search.
   
