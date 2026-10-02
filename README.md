@@ -46,7 +46,7 @@ This project utilizes a high-resolution image dataset designed to diagnose the c
 
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/54553230-0157-4801-80b6-72e52cf3a594" />
 
-Our decoupled architecture utilizes lightweight vision expert models for real-time, high-precision inspection at the edge:
+Our architecture utilizes lightweight vision expert models for real-time
 
 - YOLOv12 (Part Detection): Rapidly and robustly detects air fitting components within complex backgrounds. To prevent the loss of fine defect features, it extracts the Region of Interest (ROI) with a 20% margin.
 
@@ -56,15 +56,15 @@ Our decoupled architecture utilizes lightweight vision expert models for real-ti
 
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/5870cc45-cd91-4948-89b7-0347da8182f6" />
 
-- model : Gemini 3.5 flash
-
 To address domain knowledge limitations and prevent LLM hallucinations, the system employs a Retrieval-Augmented Generation (RAG) framework.
 
-*   Vector Database (ChromaDB): Historical maintenance logs and manuals are embedded into high-dimensional vectors and stored in ChromaDB for semantic search.
+* Model : Gemini 3.5 flash
+
+* Vector Database (ChromaDB): Historical maintenance logs and manuals are embedded into high-dimensional vectors and stored in ChromaDB for semantic search.
   
-*   Context Retrieval: Upon detecting an anomaly, the system calculates the cosine similarity to instantly retrieve the top 3 most contextually relevant maintenance records.
+* Context Retrieval: Upon detecting an anomaly, the system calculates the cosine similarity to instantly retrieve the top 3 most contextually relevant maintenance records.
   
-*   Actionable Reporting: The LLM synthesizes the visual detection metadata (from YOLO-ResNet) with the retrieved knowledge to generate a highly reliable diagnostic report. This report provides field workers with the root cause and specific, actionable maintenance guidelines.
+* Reporting: The LLM synthesizes the visual detection metadata (from YOLO-ResNet) with the retrieved knowledge to generate a highly reliable diagnostic report. This report provides field workers with the root cause and specific, actionable maintenance guidelines.
 
 ## Real-Time Reliability Evaluation (RAGAS)
 
