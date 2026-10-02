@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
-# Decoupled Vision-LLM System for Industrial Anomaly Detection & Reporting
+# Vision-LLM System for Industrial Anomaly Detection & Reporting
 
 - Title : Decoupled Perception-Reasoning LLM-based Industrial Assembly Process Inspection System
 
