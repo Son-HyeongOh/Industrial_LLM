@@ -73,7 +73,9 @@ To address domain knowledge limitations and prevent LLM hallucinations, the syst
 To ensure the trustworthiness of the AI-generated guidelines, the system integrates the RAGAS (Retrieval Augmented Generation Assessment) framework for concurrent evaluation.
 
 *   Faithfulness: Verifies that the LLM's output is strictly derived from the retrieved historical logs, effectively preventing hallucination.
+
 *   Answer Relevancy: Quantifies how directly and intuitively the generated diagnostic report addresses the identified anomaly.
+
 *   Automated Background Scoring: The pipeline calculates these metrics in real-time as the report is generated, displaying quantitative confidence scores to the field workers to ensure operational reliability.
 
 # Vision Classification Test Result
