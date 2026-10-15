@@ -58,7 +58,9 @@ Our architecture utilizes lightweight vision expert models for real-time
 
 To address domain knowledge limitations and prevent LLM hallucinations, the system employs a Retrieval-Augmented Generation (RAG) framework.
 
-* Model : Gemini 3.5 flash
+* Embedding Model : jhgan/ko-sroberta-multitask
+
+* LLM : Gemini 3.5 flash : yanolja/EEVE-Korean-Instruct-10.8B-v1.0
 
 * Vector Database (ChromaDB): Historical maintenance logs and manuals are embedded into high-dimensional vectors and stored in ChromaDB for semantic search.
   
@@ -87,6 +89,10 @@ To ensure the trustworthiness of the AI-generated guidelines, the system integra
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/4eb5ed82-5f26-4ce4-a034-919eaaa9d435" />
 
 # References
+
+- Embedding model : https://huggingface.co/jhgan/ko-sroberta-multitask
+
+- LLM : https://huggingface.co/yanolja/YanoljaNEXT-EEVE-Instruct-10.8B
 
 - YOLO : Terven, J., and Córdova-Esparza, D., “A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS”, arXiv:2304.00501, 2023. (https://arxiv.org/abs/2304.00501)
 
