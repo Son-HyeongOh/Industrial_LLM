@@ -60,7 +60,7 @@ To address domain knowledge limitations and prevent LLM hallucinations, the syst
 
 * Embedding Model : jhgan/ko-sroberta-multitask
 
-* LLM : Gemini 3.5 flash : yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+* LLM : yanolja/EEVE-Korean-Instruct-10.8B-v1.0
 
 * Vector Database (ChromaDB): Historical maintenance logs and manuals are embedded into high-dimensional vectors and stored in ChromaDB for semantic search.
   
